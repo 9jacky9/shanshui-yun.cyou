@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>隐私政策 - 山水云 零日志保留与内存态安全承诺</title>
+  <meta name="description" content="山水云隐私政策：我们郑重承诺严格执行零用户活动日志（Zero-Log）保留策略，全线节点采用无盘RAM-Only架构，彻底保障您的通信隐私。">
+  <meta name="keywords" content="山水云隐私政策,零日志承诺,Zero-Log,数据加密,隐私保护">
+  <link rel="canonical" href="https://shanshui-yun.cyou/privacy.html">
+  <meta property="og:title" content="隐私政策 - 山水云">
+  <meta property="og:description" content="山水云严格执行零用户活动日志（Zero-Log）策略，守护每一位用户的数字足迹。">
+  <meta property="og:url" content="https://shanshui-yun.cyou/privacy.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="山水云">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="telemetry-bar">
+    <div class="telemetry-inner">
+      <div class="telemetry-tag">
+        <span class="telemetry-dot"></span>
+        <span>SHANSHUI TOPOGRAPHIC BACKBONE // ZERO-LOG PRIVACY SHIELD</span>
+      </div>
+      <div>POLICY STATUS: STRICT ZERO-ACTIVITY-LOG ENFORCED</div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand-logo" aria-label="山水云首页">
+        <svg viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="山水云等高线罗盘标志">
+          <rect x="2" y="2" width="52" height="52" rx="8" fill="#16202A" stroke="#0E7490" stroke-width="2"/>
+          <ellipse cx="28" cy="34" rx="21" ry="11" stroke="#0E7490" stroke-width="1.3" stroke-dasharray="3 2"/>
+          <ellipse cx="28" cy="34" rx="14" ry="7" stroke="#22D3EE" stroke-width="1.2"/>
+          <path d="M10 40 L23 17 L31 29 L37 21 L46 40 Z" fill="#0E7490" fill-opacity="0.35" stroke="#22D3EE" stroke-width="1.8" stroke-linejoin="round"/>
+          <circle cx="23" cy="12" r="3.2" fill="#EA580C"/>
+          <path d="M23 6 L23 10 M18 12 L21 12 M25 12 L28 12" stroke="#EA580C" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <div class="brand-text-wrap">
+          <span class="brand-title">山水云</span>
+          <span class="brand-coords">SHANSHUI-YUN.CYOU</span>
+        </div>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="index.html">测绘总览</a>
+        <a href="index.html#advantages">科考专线</a>
+        <a href="index.html#streaming">流媒体与算力</a>
+        <a href="index.html#pricing">配额矩阵</a>
+        <a href="index.html#faq">技术手册</a>
+        <a href="about.html">关于我们</a>
+        <a href="cartography-hub.html" class="nav-hub-pill">测绘视界</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="article-shell">
+      <span class="coord-badge">PRIVACY ARCHITECTURE // ZERO-LOG GUARANTEE</span>
+      <h1>山水云隐私政策与零日志安全声明</h1>
+      <div class="article-meta-bar">
+        <span>核心承诺：零用户活动日志留存（Zero Activity Logs）</span>
+        <span>存储介质：全节点 RAM-Only 内存态运行</span>
+      </div>
+
+      <div class="article-content">
+        <div class="article-callout">
+          <strong>核心隐私承诺：</strong>山水云在系统设计与日常运维中严格遵循<strong>“零用户活动日志留存（Zero User Activity Logs）”</strong>原则。我们绝不记录、不监控、不存储、也不向任何第三方出售或披露您的网络浏览历史、目标访问域名、DNS 查询请求、传输数据内容及真实源 IP 地址。
+        </div>
+
+        <h2>一、我们绝对不收集的数据（零日志范畴）</h2>
+        <p>
+          当您通过山水云全球任一节点进行网络通信时，所有边缘中继服务器与落地网关均运行在定制的只读内存文件系统（RAM-Only Diskless System）之上，服务器本地不挂载任何用于写入日志的持久化硬盘：
+        </p>
+        <ul>
+          <li><strong>不记录访问内容与目标地址</strong>：我们不知道您访问了哪些网站、调用了哪些 API 接口或观看了哪些流媒体内容。</li>
+          <li><strong>不记录源 IP 与连接时间戳</strong>：会话断开后，内存中的临时 NAT 映射表立即自动销毁，不留存任何历史连接源 IP 记录。</li>
+          <li><strong>不记录 DNS 解析历史</strong>：山水云内置的加密 DoH/DoT 递归解析器完全在内存中高速缓存，不写入任何查询流水。</li>
+        </ul>
+
+        <h2>二、维持基础账户运作所需的最小化信息</h2>
+        <p>
+          为了向您交付订阅配额并提供售后服务，控制面板仅保存维持账户正常运转所必需的极简元数据：
+        </p>
+        <ul>
+          <li><strong>注册邮箱标识符</strong>：用于登录验证、接收订阅到期提醒及工单回复（支持使用匿名邮箱注册）。</li>
+          <li><strong>周期汇总流量数值</strong>：系统仅统计账户在当前计费周期内消耗的总字节数（例如已使用 45.2 GB），用于计算剩余配额，不包含任何细化的连接明细。</li>
+          <li><strong>脱敏支付状态凭证</strong>：支付过程由第三方合规加密网关处理，山水云不存储您的银行卡号或完整支付账户私钥。</li>
+        </ul>
+
+        <h2>三、端到端加密与前向安全性</h2>
+        <p>
+          山水云全线传输协议均启用 TLS 1.3 与 ChaCha20-Poly1305 / AES-256-GCM 强加密算法，并强制开启完全前向保密（Perfect Forward Secrecy, PFS）。每次握手均动态生成一次性椭圆曲线密钥（ECDHE），即便在极端网络窃听环境下，历史通信数据包也无法被逆向解密。
+        </p>
+
+        <h2>四、用户数据控制权與账户注销</h2>
+        <p>
+          您拥有对个人账户数据的完全控制权。您可随时在用户中心申请永久注销账户，注销指令执行后，系统将立即不可逆地清除与该邮箱关联的所有订阅哈希值与工单记录。若对本隐私政策有任何疑问，欢迎浏览<a href="about.html">关于我们</a>或<a href="terms.html">服务条款</a>获取更多说明。
+        </p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <nav class="footer-nav-only" aria-label="页脚合规导航">
+      <a href="sitemap.html">网站地图</a>
+      <a href="about.html">关于我们</a>
+      <a href="terms.html">服务条款</a>
+      <a href="privacy.html">隐私政策</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
