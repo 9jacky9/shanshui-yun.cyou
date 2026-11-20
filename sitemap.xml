@@ -2,73 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://shanshui-yun.cyou/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://shanshui-yun.cyou/cartography-hub.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://shanshui-yun.cyou/alpine-relay-architecture-test.html</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shanshui-yun.cyou/anycast-dns-resolution-mechanics.html</loc>
-    <lastmod>2026-10-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shanshui-yun.cyou/cloud-gaming-jitter-elimination.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://shanshui-yun.cyou/ai-code-assistant-latency-benchmark.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://shanshui-yun.cyou/ipv6-dual-stack-tunnel-migration.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shanshui-yun.cyou/cloud-gaming-jitter-elimination.html</loc>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://shanshui-yun.cyou/residential-ip-reputation-protection.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://shanshui-yun.cyou/anycast-dns-resolution-mechanics.html</loc>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://shanshui-yun.cyou/about.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://shanshui-yun.cyou/terms.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://shanshui-yun.cyou/privacy.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://shanshui-yun.cyou/sitemap.html</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

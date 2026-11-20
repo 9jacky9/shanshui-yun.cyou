@@ -875,39 +875,92 @@ section {
 }
 
 @media (max-width: 768px) {
+  .telemetry-bar {
+    padding: 3px 0;
+    font-size: 0.68rem;
+  }
   .header-inner {
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 8px;
+    padding: 8px 14px;
+  }
+  .brand-logo svg {
+    width: 34px;
+    height: 34px;
+  }
+  .brand-title {
+    font-size: 1.15rem;
   }
   .main-nav {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 4px;
   }
   .main-nav a, .main-nav a:visited {
-    font-size: 0.86rem;
-    padding: 7px 11px;
+    font-size: 0.78rem;
+    padding: 5px 8px;
     background-color: var(--bg-primary);
     border: 1px solid var(--border-line);
     flex: 1 1 auto;
     text-align: center;
   }
+  .hero-section {
+    padding: 16px 0 28px;
+  }
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .hero-content {
+    order: 1;
+  }
+  .hero-visual-frame {
+    order: 2;
+  }
+  .hero-kicker {
+    margin-bottom: 8px;
+    padding: 2px 8px;
+    font-size: 0.7rem;
+  }
   .hero-content h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    margin-bottom: 8px;
+  }
+  .hero-subtitle {
+    font-size: 0.86rem;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  .hero-actions {
+    margin-bottom: 14px;
+    gap: 8px;
+  }
+  .btn-primary, .btn-secondary {
+    padding: 9px 14px;
+    font-size: 0.88rem;
   }
   .hero-metrics-strip {
     grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 10px;
   }
   .grid-4 {
     grid-template-columns: 1fr;
   }
   .article-shell {
-    padding: 26px 20px;
-    margin: 24px 12px;
+    padding: 20px 14px;
+    margin: 16px 8px;
   }
   .footer-nav-only {
-    gap: 14px;
+    gap: 10px;
+    padding: 0 10px;
+  }
+  .footer-nav-only a {
+    font-size: 0.85rem;
+    padding: 4px 8px;
   }
 }
